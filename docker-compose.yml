@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    env_file:
+      - api.env # This doesn't seem to work
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+      # - "${PORT}:${PORT}"

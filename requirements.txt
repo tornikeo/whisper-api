@@ -1,0 +1,6 @@
+fastapi>=0.85.0
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+gradio
+python-multipart
+python-dotenv
